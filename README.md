@@ -1,8 +1,6 @@
 # Ball Launcher Game
-<p align="center">
-  <img src="https://github.com/angellee177/ballLauncher_iOS.git/docs/img/Ball_launcher.gif?raw=true" width="400" title="Gameplay Demo">
-</p>
 
+![Ball_launcher.gif](docs/img/Ball_launcher.gif)
 ## Description
 
 This project is a physics-based 2D Ball Launcher game built with Unity. It features a sling-shot mechanic using `SpringJoint2D`, custom despawn/respawn logic, and a multi-platform UI system for mobile and desktop play.
