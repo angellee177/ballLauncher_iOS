@@ -37057,7 +37057,7 @@ IL_0042:
 		Type_t * L_10 = ___type0;
 		NullCheck(L_10);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_11;
-		L_11 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(45 /* System.Type[] System.Type::GetInterfaces() */, L_10);
+		L_11 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(44 /* System.Type[] System.Type::GetInterfaces() */, L_10);
 		// var haveFoundInterface = false;
 		V_0 = (bool)0;
 		// foreach (var element in interfaces)
@@ -37080,7 +37080,7 @@ IL_004f:
 		Type_t * L_16 = V_3;
 		NullCheck(L_16);
 		bool L_17;
-		L_17 = VirtFuncInvoker0< bool >::Invoke(73 /* System.Boolean System.Type::get_IsConstructedGenericType() */, L_16);
+		L_17 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsConstructedGenericType() */, L_16);
 		if (!L_17)
 		{
 			goto IL_0070;
@@ -37090,7 +37090,7 @@ IL_004f:
 		Type_t * L_18 = V_3;
 		NullCheck(L_18);
 		Type_t * L_19;
-		L_19 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetGenericTypeDefinition() */, L_18);
+		L_19 = VirtFuncInvoker0< Type_t * >::Invoke(97 /* System.Type System.Type::GetGenericTypeDefinition() */, L_18);
 		Type_t * L_20 = ___genericTypeDefinition1;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -37232,7 +37232,7 @@ IL_00d5:
 		Type_t * L_48 = ___type0;
 		NullCheck(L_48);
 		bool L_49;
-		L_49 = VirtFuncInvoker0< bool >::Invoke(73 /* System.Boolean System.Type::get_IsConstructedGenericType() */, L_48);
+		L_49 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsConstructedGenericType() */, L_48);
 		if (!L_49)
 		{
 			goto IL_00b9;
@@ -37242,7 +37242,7 @@ IL_00d5:
 		Type_t * L_50 = ___type0;
 		NullCheck(L_50);
 		Type_t * L_51;
-		L_51 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetGenericTypeDefinition() */, L_50);
+		L_51 = VirtFuncInvoker0< Type_t * >::Invoke(97 /* System.Type System.Type::GetGenericTypeDefinition() */, L_50);
 		Type_t * L_52 = ___genericTypeDefinition1;
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		bool L_53;
@@ -37259,7 +37259,7 @@ IL_00eb:
 		Type_t * L_54 = ___type0;
 		NullCheck(L_54);
 		TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* L_55;
-		L_55 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(97 /* System.Type[] System.Type::get_GenericTypeArguments() */, L_54);
+		L_55 = VirtFuncInvoker0< TypeU5BU5D_t85B10489E46F06CEC7C4B1CCBD0E01FAB6649755* >::Invoke(96 /* System.Type[] System.Type::get_GenericTypeArguments() */, L_54);
 		int32_t L_56 = ___argumentIndex2;
 		NullCheck(L_55);
 		int32_t L_57 = L_56;

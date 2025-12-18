@@ -25521,7 +25521,7 @@ IL_004b:
 			Type_t * L_18 = ___type0;
 			NullCheck(L_18);
 			FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_19;
-			L_19 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_18, ((int32_t)52));
+			L_19 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_18, ((int32_t)52));
 			V_5 = L_19;
 			V_6 = 0;
 			goto IL_00f3;
@@ -30370,7 +30370,7 @@ IL_001c:
 		Type_t * L_16 = V_6;
 		NullCheck(L_16);
 		Type_t * L_17;
-		L_17 = VirtFuncInvoker0< Type_t * >::Invoke(95 /* System.Type System.Type::GetElementType() */, L_16);
+		L_17 = VirtFuncInvoker0< Type_t * >::Invoke(94 /* System.Type System.Type::GetElementType() */, L_16);
 		V_6 = L_17;
 	}
 
@@ -30387,7 +30387,7 @@ IL_0049:
 		RuntimeObject * L_20 = V_5;
 		NullCheck(L_19);
 		bool L_21;
-		L_21 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(107 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_19, L_20);
+		L_21 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(105 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_19, L_20);
 		if (L_21)
 		{
 			goto IL_00b1;
@@ -31609,7 +31609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackTrace_GetFullNameForStackTrace_mB5F
 		Type_t * L_2 = V_0;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsGenericType() */, L_2);
+		L_3 = VirtFuncInvoker0< bool >::Invoke(70 /* System.Boolean System.Type::get_IsGenericType() */, L_2);
 		if (!L_3)
 		{
 			goto IL_001e;
@@ -31619,7 +31619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackTrace_GetFullNameForStackTrace_mB5F
 		Type_t * L_4 = V_0;
 		NullCheck(L_4);
 		bool L_5;
-		L_5 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsGenericTypeDefinition() */, L_4);
+		L_5 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsGenericTypeDefinition() */, L_4);
 		if (L_5)
 		{
 			goto IL_001e;
@@ -31629,7 +31629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StackTrace_GetFullNameForStackTrace_mB5F
 		Type_t * L_6 = V_0;
 		NullCheck(L_6);
 		Type_t * L_7;
-		L_7 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetGenericTypeDefinition() */, L_6);
+		L_7 = VirtFuncInvoker0< Type_t * >::Invoke(97 /* System.Type System.Type::GetGenericTypeDefinition() */, L_6);
 		V_0 = L_7;
 	}
 
@@ -31827,7 +31827,7 @@ IL_00fb:
 		Type_t * L_65 = V_8;
 		NullCheck(L_65);
 		bool L_66;
-		L_66 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsGenericType() */, L_65);
+		L_66 = VirtFuncInvoker0< bool >::Invoke(70 /* System.Boolean System.Type::get_IsGenericType() */, L_65);
 		if (!L_66)
 		{
 			goto IL_0121;
@@ -31837,7 +31837,7 @@ IL_00fb:
 		Type_t * L_67 = V_8;
 		NullCheck(L_67);
 		bool L_68;
-		L_68 = VirtFuncInvoker0< bool >::Invoke(72 /* System.Boolean System.Type::get_IsGenericTypeDefinition() */, L_67);
+		L_68 = VirtFuncInvoker0< bool >::Invoke(71 /* System.Boolean System.Type::get_IsGenericTypeDefinition() */, L_67);
 		if (L_68)
 		{
 			goto IL_0121;
@@ -31847,7 +31847,7 @@ IL_00fb:
 		Type_t * L_69 = V_8;
 		NullCheck(L_69);
 		Type_t * L_70;
-		L_70 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetGenericTypeDefinition() */, L_69);
+		L_70 = VirtFuncInvoker0< Type_t * >::Invoke(97 /* System.Type System.Type::GetGenericTypeDefinition() */, L_69);
 		V_8 = L_70;
 	}
 
