@@ -66,3 +66,10 @@ If the target platform is not active, click the **Switch Platform** button at th
 * **For Mobile Simulator**:
 1. Go to **Window > General > Device Simulator**.
 2. Press **Play** in the editor to test touch inputs on various mobile device profiles.
+
+## 🚀 Features
+
+* **Sling-Shot Mechanics:** Interactive dragging using the new Unity Input System.
+* **Dynamic Respawning:** Automated ball replacement using C# Coroutines for smooth delays.
+* **Physics-Based Gameplay:** Utilizes `SpringJoint2D` and `Rigidbody2D` for realistic motion.
+* **Cross-Platform UI:** Designed to work on both Mobile (Touch) and Desktop (Mouse).
