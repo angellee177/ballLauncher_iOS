@@ -67,6 +67,7 @@ If the target platform is not active, click the **Switch Platform** button at th
 1. Go to **Window > General > Device Simulator**.
 2. Press **Play** in the editor to test touch inputs on various mobile device profiles.
 
+---
 ## 🚀 Features
 
 * **Sling-Shot Mechanics:** Interactive dragging using the new Unity Input System.
