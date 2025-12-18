@@ -87,9 +87,6 @@ Generating an iOS build requires local regeneration on a Mac. Do not use build f
 3. Note: If using a real iPhone, you must go to Settings > General > VPN & Device Management on your phone to "Trust" the app before it will open.
 
 ----
-## Test on TestFlight
-
-
 ## 🚀 Features
 
 * **Sling-Shot Mechanics:** Interactive dragging using the new Unity Input System.
