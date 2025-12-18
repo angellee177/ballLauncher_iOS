@@ -29,7 +29,8 @@ $ cd ball-launcher
 1. Open **Unity Hub**.
 2. Click **Add** (or **Open**) and navigate to the cloned folder.
 3. Select the folder to add it to your project list.
-4. Click the project to open it. *Note: The first import may take several minutes as Unity generates the `/Library` folder.*
+4. Click the project to open it. 
+*Note: The first import may take several minutes as Unity generates the `/Library` folder.*
 
 ---
 
@@ -65,4 +66,3 @@ If the target platform is not active, click the **Switch Platform** button at th
 * **For Mobile Simulator**:
 1. Go to **Window > General > Device Simulator**.
 2. Press **Play** in the editor to test touch inputs on various mobile device profiles.
-
