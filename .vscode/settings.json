@@ -52,5 +52,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "ball_launcher.sln"
+    "dotnet.defaultSolution": "ball_launcher.sln",
+    "dotnet.preferCSharpExtension": true
 }
