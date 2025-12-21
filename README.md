@@ -90,8 +90,8 @@ Generating an iOS build requires local regeneration on a Mac. Do not use build f
 ## 🚀 Features
 
 * **Sling-Shot Mechanics:** Interactive dragging using the new Unity Input System.
-* **Dynamic Respawning:** Automated ball replacement using C# Coroutines.
+* **Dynamic Respawning:** Automated ball replacement logic using Invoke to manage timed delays between launch and reset.
 * **Physics-Based Gameplay:** Utilizes `SpringJoint2D` and `Rigidbody2D`.
-* **Cross-Platform UI:** Designed for both Mobile (Touch) and Desktop (Mouse).
+* **Cross-Platform UI:** Designed for both Android and iOS (Touch).
 
 ---

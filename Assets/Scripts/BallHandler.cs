@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -40,12 +41,12 @@ public class BallHandler : MonoBehaviour
             return;
         }
 
-        // This code only runs if the user IS touching the screen
+        // Logic for dragging mouse and touchscreen
         isDragging = true;
         currentBallRigidBody.isKinematic = true;
 
-        Vector2 touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
-        Vector3 worldPosition = mainCamera.ScreenToWorldPoint(touchPosition);
+        Vector2 pointerPosition = Touchscreen.current.primaryTouch.position.ReadValue();
+        Vector3 worldPosition = mainCamera.ScreenToWorldPoint(pointerPosition);
         worldPosition.z = 0; // Ensure the ball doesn't move into the background
 
         currentBallRigidBody.position = worldPosition;
