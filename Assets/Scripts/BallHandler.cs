@@ -41,7 +41,7 @@ public class BallHandler : MonoBehaviour
             return;
         }
 
-        // Logic for touchscreen
+        // Logic for dragging mouse and touchscreen
         isDragging = true;
         currentBallRigidBody.isKinematic = true;
 
