@@ -20,8 +20,8 @@ Before you start, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```zsh
-git clone [https://github.com/your-username/ball-launcher.git](https://github.com/your-username/ball-launcher.git)
-cd ball-launcher
+git clone [https://github.com/angellee177/ballLauncher_iOS](https://github.com/angellee177/ballLauncher_iOS)
+cd ballLauncher_iOS
 ```
 
 ### 2. .NET Environment
@@ -37,7 +37,7 @@ If not found, download it from [dotnet.microsoft.com](https://dotnet.microsoft.c
 ### 3. Open with Unity
 
 1. Open **Unity Hub** and click **Add**.
-2. Select the `ball-launcher` folder.
+2. Select the `ballLauncher_iOS` folder.
 3. Click the project to open.
 
 > [⚠️ WARNING] <br>
